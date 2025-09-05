@@ -33,7 +33,7 @@ requirements:
     - r-data.table
     - r-future
     - r-lgr
-    - r-mlr3
+    - r-mlr3 >=1.1.0
     - r-mlr3measures
     - r-mlr3misc
     - r-paradox
@@ -45,7 +45,7 @@ requirements:
     - r-data.table
     - r-future
     - r-lgr
-    - r-mlr3
+    - r-mlr3 >=1.1.0
     - r-mlr3measures
     - r-mlr3misc
     - r-paradox
