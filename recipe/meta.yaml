@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/mlr3inferr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/mlr3inferr/mlr3inferr_{{ version }}.tar.gz
-  sha256: b89be57d9fb6b680a3b8d394ec5a1ef868e18d11afedd98bfb55cd7c7735db67
+  sha256: 8e54b0354bf774a03222f1900832b3c29aa2e93429b00f392ddfd87d1374d99c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
